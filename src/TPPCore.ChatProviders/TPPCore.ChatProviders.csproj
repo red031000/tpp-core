@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TPPCore.Service.Common\TPPCore.Service.Common.csproj" />
+    <ProjectReference Include="..\TPPCore.Irc\TPPCore.Irc.csproj" />
     <ProjectReference Include="..\TPPCore.Utils\TPPCore.Utils.csproj" />
   </ItemGroup>
 </Project>
