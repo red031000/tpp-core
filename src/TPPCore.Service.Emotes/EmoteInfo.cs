@@ -13,6 +13,6 @@
         /// <summary>
         /// The URLs of the emote
         /// </summary>
-        public virtual string[] ImageUrls { get; }
+        public virtual string[] ImageUrls { get; set; }
     }
 }
