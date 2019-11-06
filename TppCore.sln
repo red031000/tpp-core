@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8024CEB-AA9A-43AA-A221-F7A4C26C17DA}"
 EndProject
@@ -19,6 +19,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPPCore.Service.Emotes.Tests", "test\TPPCore.Service.Emotes.Tests\TPPCore.Service.Emotes.Tests.csproj", "{15AE79EB-61D8-4A97-8086-6AECFEF37CA4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPPCore.Client.Common", "src\TPPCore.Client.Common\TPPCore.Client.Common.csproj", "{90D4BEBA-C0E7-449E-9CA4-A82F0A58A20D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPPCore.ChatProviders", "src\TPPCore.ChatProviders\TPPCore.ChatProviders.csproj", "{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,6 +116,18 @@ Global
 		{90D4BEBA-C0E7-449E-9CA4-A82F0A58A20D}.Release|x64.Build.0 = Release|Any CPU
 		{90D4BEBA-C0E7-449E-9CA4-A82F0A58A20D}.Release|x86.ActiveCfg = Release|Any CPU
 		{90D4BEBA-C0E7-449E-9CA4-A82F0A58A20D}.Release|x86.Build.0 = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|x64.Build.0 = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|x64.ActiveCfg = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|x64.Build.0 = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +140,7 @@ Global
 		{1E0E5046-88B0-4044-A306-17F8D56D517C} = {D8024CEB-AA9A-43AA-A221-F7A4C26C17DA}
 		{15AE79EB-61D8-4A97-8086-6AECFEF37CA4} = {EE3DFBF9-43CF-419C-BC9F-C36364FC1C73}
 		{90D4BEBA-C0E7-449E-9CA4-A82F0A58A20D} = {D8024CEB-AA9A-43AA-A221-F7A4C26C17DA}
+		{CDACA6A1-D9E6-4AFD-984B-F170F6A771B8} = {D8024CEB-AA9A-43AA-A221-F7A4C26C17DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB177054-A584-4B2A-BA72-D3195C6BF3B5}
